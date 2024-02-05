@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55A91D36-749E-1773-CC45-2C8A973997CD" name="T_VEC_AMIGOS_USUARIO">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>38635F4C-B2D6-F12A-CC5D-05865ECF6EF7</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_amigos_usuario" id="CA4CE431-053D-C2E6-CF19-215ACD40CA7A">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>E4E15904-417D-2E2F-04A4-FEDFC4447C12</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_amigos" id="3744233E-6BEC-7F6D-B30B-190DB8108D2C">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>03DC8FED-3413-907D-B410-A7DC0F899902</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_amigos" id="A9DF4738-771D-8CDD-F539-F606800369D8">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>15E3995E-680F-1769-ED47-E734A151D2E1</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8DCD04D-D710-BA13-C255-FE136AE391DD" name="T_VEC_AMIGOS_USUARIO_PK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>E43BE870-1F04-79A0-29F9-5102DAF43C67</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA4CE431-053D-C2E6-CF19-215ACD40CA7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

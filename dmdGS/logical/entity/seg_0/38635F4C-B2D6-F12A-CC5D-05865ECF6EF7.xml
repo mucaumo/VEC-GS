@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38635F4C-B2D6-F12A-CC5D-05865ECF6EF7" name="T_VEC_AMIGOS_USUARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:03:46 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_amigos_usuario" id="E4E15904-417D-2E2F-04A4-FEDFC4447C12">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:04:21 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_amigos" id="03DC8FED-3413-907D-B410-A7DC0F899902">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:04:32 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_amigos" id="15E3995E-680F-1769-ED47-E734A151D2E1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:08:04 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E43BE870-1F04-79A0-29F9-5102DAF43C67" name="T_VEC_AMIGOS_USUARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:04:30 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4E15904-417D-2E2F-04A4-FEDFC4447C12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

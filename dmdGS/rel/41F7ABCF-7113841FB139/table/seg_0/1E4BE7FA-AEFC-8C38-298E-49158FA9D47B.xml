@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E4BE7FA-AEFC-8C38-298E-49158FA9D47B" name="T_VEC_PERFIL">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>E50B1A6E-00AE-0848-0EAD-B30BB59707E1</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_perfil" id="D2B7B502-438A-5ABE-966D-3B3C40A42195">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>EB810BD0-1F15-EB56-796D-130C6F7E4E21</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_perfil" id="220CD746-FD62-651A-8461-FDB18D5884E5">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>07F3998E-503B-66CA-8B87-BAA7843E4577</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_VEC_CADASTRO_id_usuario" id="06D27CF5-69FB-D176-18C3-656BBA3A8790">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>B5320705-1EE8-4C05-15D7-598AF4BC4C1F</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13EBF54B-83D9-0CFF-1C71-3D6D674FF76B" referredColumn="04D7EE27-3916-2C3A-DAE8-6A424F4F3A97"/>
+</associations>
+</Column>
+<Column name="T_VEC_ENDERECO_USUARIO_id_endereco_usuario" id="EF80FFA1-39D4-7929-AEDC-8AA35C5F48DA">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>913CC2F9-B2F6-48C2-0E63-B046453A0BC5</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FB450E8-A1F9-9CB3-F3D6-67F17EB96736" referredColumn="825E9307-11F0-BCD2-CFB6-D8072B1A0995"/>
+</associations>
+</Column>
+<Column name="T_VEC_PLANO_SAUDE_id_plano_saude" id="E53DD260-CC38-20A8-A8D0-CC3233BF4AC7">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>EC575237-E00B-951D-EB0A-61E70655BA42</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8904236E-C1FC-9C08-2645-8DA7B4274F2A" referredColumn="C6C10EDF-00AD-E153-30C9-9F81E0B7A3DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1585EAB3-EA11-825B-043D-7166927B4866" name="T_VEC_PERFIL_PK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>B6816734-F65F-B5C7-F203-A5A88AA541F1</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2B7B502-438A-5ABE-966D-3B3C40A42195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6EAE11B-AAB0-327E-21FE-80E03007EEF4" name="T_VEC_PERFIL__IDX">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3EEA72BA-D0A0-0C4B-6316-197D4190C65C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="06D27CF5-69FB-D176-18C3-656BBA3A8790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98163ED2-14E2-A60F-B7B2-18AF33AB3C6C" name="T_VEC_PERFIL__IDXv1">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>16FB9424-395A-1229-AC2E-CDCFAD0263A4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EF80FFA1-39D4-7929-AEDC-8AA35C5F48DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC53F6F8-0BA9-596F-24BA-D1BE33A5462C" name="T_VEC_PERFIL__IDXv2">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>702672B5-6547-13E2-CF37-083D91F20EC3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E53DD260-CC38-20A8-A8D0-CC3233BF4AC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD8D0B2D-AAB4-A68F-3C1C-38E947C5C491" name="T_VEC_PERFIL_T_VEC_CADASTRO_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>3EEA72BA-D0A0-0C4B-6316-197D4190C65C</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06D27CF5-69FB-D176-18C3-656BBA3A8790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34D0D0BC-6AC2-D0AC-5725-5D9B99893D98" name="T_VEC_PERFIL_T_VEC_ENDERECO_USUARIO_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>16FB9424-395A-1229-AC2E-CDCFAD0263A4</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF80FFA1-39D4-7929-AEDC-8AA35C5F48DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE3407AE-FAE4-582C-9CAB-5329B223C316" name="T_VEC_PERFIL_T_VEC_PLANO_SAUDE_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>702672B5-6547-13E2-CF37-083D91F20EC3</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E53DD260-CC38-20A8-A8D0-CC3233BF4AC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E9C10CE-E296-F77B-9FC5-BA3E86797DA3" name="T_VEC_AMIGOS_PERFIL">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>BE5AC4BA-7D5E-780E-5753-56A81E608828</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_VEC_PERFIL_id_perfil" id="5FDE87D2-A53D-92B5-82C7-EEF4D6F4A8CF">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>67976762-68DB-0F55-2D79-C9C2AD79E021</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C644F50-DB0C-09C7-82B0-1C70A0F1BB97" referredColumn="D2B7B502-438A-5ABE-966D-3B3C40A42195"/>
+</associations>
+</Column>
+<Column name="T_VEC_AMIGOS_USUARIO_id_amigos_usuario" id="0EB952EE-A699-BC64-1DB7-081138F9ADF0">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>0300E518-9F34-8594-7722-60CF4F52CC0A</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41487C20-08AE-B9BD-36A1-778D55D2EC64" referredColumn="CA4CE431-053D-C2E6-CF19-215ACD40CA7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4269B3CA-5A80-103B-9FFC-9D53C0B02209" name="T_VEC_AMIGOS_PERFIL_T_VEC_PERFIL_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>3D9C1734-F699-9F57-3B3E-D8808E25843F</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FDE87D2-A53D-92B5-82C7-EEF4D6F4A8CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B52CEEBA-9EA2-4550-BCBE-18BD767785B7" name="T_VEC_AMIGOS_PERFIL_T_VEC_AMIGOS_USUARIO_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>37552F37-2195-2989-C8A1-B2302736C0C3</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB952EE-A699-BC64-1DB7-081138F9ADF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

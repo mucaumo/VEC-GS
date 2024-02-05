@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1E2635C-02A9-F459-2630-23A70E01C53A" name="T_VEC_PLANO_SAUDE">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>7A5FC54E-E404-8719-24FC-5C4ACFD0B48A</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plano_saude" id="C6C10EDF-00AD-E153-30C9-9F81E0B7A3DD">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>1CCF8874-2677-3F92-92A3-FD6DF995ED08</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_plano_saude" id="147A0792-C8D1-8ED8-CCA7-63C99A45A6DC">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>F0E2C4A8-350F-7CB2-0CE3-D066635E4D53</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj_plano_saude" id="5FAC6777-8B34-1432-6CE4-902BCC2B5C2F">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>A52F0492-6FC5-26ED-2D63-C6DCCCEBFAE1</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A349F1C1-164B-4F9B-93F4-0155921A539B" name="T_VEC_PLANO_SAUDE_PK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>8DB3B7AD-CE0C-2339-EE32-1393BAB7496A</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6C10EDF-00AD-E153-30C9-9F81E0B7A3DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

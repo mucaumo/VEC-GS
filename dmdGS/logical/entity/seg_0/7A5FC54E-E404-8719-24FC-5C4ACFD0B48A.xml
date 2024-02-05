@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A5FC54E-E404-8719-24FC-5C4ACFD0B48A" name="T_VEC_PLANO_SAUDE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:29:25 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plano_saude" id="1CCF8874-2677-3F92-92A3-FD6DF995ED08">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:29:49 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_plano_saude" id="F0E2C4A8-350F-7CB2-0CE3-D066635E4D53">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:30:32 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj_plano_saude" id="A52F0492-6FC5-26ED-2D63-C6DCCCEBFAE1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:31:06 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8DB3B7AD-CE0C-2339-EE32-1393BAB7496A" name="T_VEC_PLANO_SAUDE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:30:15 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CCF8874-2677-3F92-92A3-FD6DF995ED08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

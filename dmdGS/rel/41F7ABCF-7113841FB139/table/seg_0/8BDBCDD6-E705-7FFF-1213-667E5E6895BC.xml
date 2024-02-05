@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BDBCDD6-E705-7FFF-1213-667E5E6895BC" name="T_VEC_PERFIL_VACINACAO">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>01856D0A-9B11-6361-5638-3CF689F0276F</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_VEC_PERFIL_id_perfil" id="6FBEE2F5-960F-3465-498A-5E93E82F19BB">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>8B30744E-6907-75AA-7364-FF32F6747A09</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="434F15F3-BED2-72C5-0D8C-695592BB7A45" referredColumn="D2B7B502-438A-5ABE-966D-3B3C40A42195"/>
+</associations>
+</Column>
+<Column name="T_VEC_VACINACAO_id_vacinacao" id="EC2AE052-F6DB-F584-7F83-C073ED9EEAC4">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>4897C0C1-7A89-0B2A-D749-0BD958A85786</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF5F1871-867C-40B7-87C1-57F81595EC3D" referredColumn="A1D9C23F-6A6C-3F22-7DA8-F091CBB53665"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37007372-7C53-6F43-C1B1-B58BD49E014C" name="T_VEC_PERFIL_VACINACAO_T_VEC_PERFIL_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>6A3C4895-0DD0-0A57-DD9E-48A2F93C0753</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FBEE2F5-960F-3465-498A-5E93E82F19BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D94C0697-E7D0-5F2A-94FB-E182D1315744" name="T_VEC_PERFIL_VACINACAO_T_VEC_VACINACAO_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>D616B72E-8462-98B5-671C-93761B6F7E85</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC2AE052-F6DB-F584-7F83-C073ED9EEAC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

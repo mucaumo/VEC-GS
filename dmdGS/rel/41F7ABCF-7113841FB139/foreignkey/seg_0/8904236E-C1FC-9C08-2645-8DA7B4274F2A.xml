@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8904236E-C1FC-9C08-2645-8DA7B4274F2A" containerWithKeyObject="1E4BE7FA-AEFC-8C38-298E-49158FA9D47B" localFKIndex="EE3407AE-FAE4-582C-9CAB-5329B223C316" name="T_VEC_PERFIL_T_VEC_PLANO_SAUDE_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>702672B5-6547-13E2-CF37-083D91F20EC3</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<referredTableLongName>T_VEC_PLANO_SAUDE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1E2635C-02A9-F459-2630-23A70E01C53A</referredTableID>
+<keyObject>A349F1C1-164B-4F9B-93F4-0155921A539B</keyObject>
+<referredKeyID>A349F1C1-164B-4F9B-93F4-0155921A539B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_plano_saude</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

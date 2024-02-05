@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="41487C20-08AE-B9BD-36A1-778D55D2EC64" containerWithKeyObject="2E9C10CE-E296-F77B-9FC5-BA3E86797DA3" localFKIndex="B52CEEBA-9EA2-4550-BCBE-18BD767785B7" name="T_VEC_AMIGOS_PERFIL_T_VEC_AMIGOS_USUARIO_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>37552F37-2195-2989-C8A1-B2302736C0C3</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<referredTableLongName>T_VEC_AMIGOS_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55A91D36-749E-1773-CC45-2C8A973997CD</referredTableID>
+<keyObject>E8DCD04D-D710-BA13-C255-FE136AE391DD</keyObject>
+<referredKeyID>E8DCD04D-D710-BA13-C255-FE136AE391DD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_amigos_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

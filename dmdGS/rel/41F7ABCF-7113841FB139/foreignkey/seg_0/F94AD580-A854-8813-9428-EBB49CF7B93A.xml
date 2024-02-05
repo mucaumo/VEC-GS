@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F94AD580-A854-8813-9428-EBB49CF7B93A" containerWithKeyObject="E9089403-A793-DDD3-6B4B-2AAA314DBF29" localFKIndex="C021F511-5C0E-EC63-D39C-D054CB3AE416" name="T_VEC_CADASTRO_T_VEC_PERFIL_FK">
+<createdBy>Murilo</createdBy>
+<createdTime>2023-11-23 19:38:31 UTC</createdTime>
+<generatorID>3EEA72BA-D0A0-0C4B-6316-197D4190C65C</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<referredTableLongName>T_VEC_PERFIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E4BE7FA-AEFC-8C38-298E-49158FA9D47B</referredTableID>
+<keyObject>1585EAB3-EA11-825B-043D-7166927B4866</keyObject>
+<referredKeyID>1585EAB3-EA11-825B-043D-7166927B4866</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_perfil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

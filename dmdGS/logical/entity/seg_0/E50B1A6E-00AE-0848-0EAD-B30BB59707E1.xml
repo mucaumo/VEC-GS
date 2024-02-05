@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E50B1A6E-00AE-0848-0EAD-B30BB59707E1" name="T_VEC_PERFIL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 12:48:23 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_perfil" id="EB810BD0-1F15-EB56-796D-130C6F7E4E21">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 12:48:31 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_perfil" id="07F3998E-503B-66CA-8B87-BAA7843E4577">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 12:48:43 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="B5320705-1EE8-4C05-15D7-598AF4BC4C1F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:01:09 UTC</createdTime>
+<generatorID>3EEA72BA-D0A0-0C4B-6316-197D4190C65C</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<referedAttribute>F5E29958-D613-B056-963F-FDCC027A5328</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco_usuario" id="913CC2F9-B2F6-48C2-0E63-B046453A0BC5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:27:46 UTC</createdTime>
+<generatorID>16FB9424-395A-1229-AC2E-CDCFAD0263A4</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<referedAttribute>81F9DE5E-0059-C612-CDB1-D1D5C8DF4883</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plano_saude" id="EC575237-E00B-951D-EB0A-61E70655BA42">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 13:34:38 UTC</createdTime>
+<generatorID>702672B5-6547-13E2-CF37-083D91F20EC3</generatorID>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<referedAttribute>1CCF8874-2677-3F92-92A3-FD6DF995ED08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6816734-F65F-B5C7-F203-A5A88AA541F1" name="T_VEC_PERFIL PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 12:48:37 UTC</createdTime>
+<ownerDesignName>dmdGS</ownerDesignName>
+<engineerTo>
+<item key="41F7ABCF-6920-BCFF-E8CB-7113841FB139" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB810BD0-1F15-EB56-796D-130C6F7E4E21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
